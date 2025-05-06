@@ -13,7 +13,7 @@ public class Main {
         System.out.println("MulticastSocket is created at port " + portNumber);
 
         // determine ip address of a host, given the host name
-        InetAddress group = InetAddress.getByName("255.4.5.6");
+        InetAddress group = InetAddress.getByName("225.4.5.6");
         // getByName returns ip address of given host
         serverMulticastSocket.joinGroup(group);
         System.out.println("JoinGroup method is called...");
